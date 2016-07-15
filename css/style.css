@@ -1,0 +1,143 @@
+html {
+  height: 100%;
+}
+body {
+  background: #FFE735;
+  font: 400 16px 'Comfortaa', cursive;
+  overflow-y: scroll;
+  margin: 0;
+}
+.wrapper {
+  height: 650px;
+}
+.cont {
+  background: #fff;
+  width: 600px;
+  height: 500px;
+  margin: 40px auto 0 auto;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+}
+a:link, a:visited, a:active {
+  text-decoration: none;
+  text-align: center;
+  color: #1F1B1C;
+}
+.link,
+.text2,
+.pic3,
+.pic4,
+.pic5 {
+  display: none;
+}
+button,
+h1,
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5 {
+  position: absolute;
+}
+button {
+  text-align: center;
+  width: 110px;
+  height: 60px;
+  bottom: 185px;
+  color: #1F1B1C;
+  cursor: pointer;
+  box-shadow: .3px .3px 3px;
+  border-radius: 20px;
+  background: -moz-linear-gradient(0deg, #FFC000, #FFF500);
+  background: -webkit-linear-gradient(0deg, #FFC000, #FFF500);
+  background: -o-linear-gradient(0deg, #FFC000, #FFF500);
+  background: linear-gradient(0deg, #FFC000, #FFF500);
+  border: 0;
+  font: 400 1.5em 'Comfortaa', cursive;
+}
+.b1:hover, .b3:hover {
+  color: #fff;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  top: 40px;
+  right:35px;
+  text-align: center;
+  color: #00B8EE;
+  font-size: 1.3em;
+  font-weight: 700;
+  cursor: default;
+}
+h2 {
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  top: 125px;
+  text-align: center;
+  color: #1F1B1C;
+  font-size: 1.8em;
+  cursor: default;
+}
+.pic1 {
+  top: 30px;
+  left: 35px;
+  width: 280px;
+  height: 54px;
+  background: url('../images/1.jpg');
+  background-size: 100% 100%;
+}
+.pic2 {
+  bottom: -10px;
+  left: 85px;
+  width: 430px;
+  height: 160px;
+  background: url('../images/2.jpg');
+  background-size: 100% 100%;
+}
+.pic3 {
+  bottom: 10px;
+  right: 20px;
+  width: 160px;
+  height: 150px;
+  border-radius: 30px;
+  background: url('../images/3.jpg');
+  background-size: 100% 100%;
+}
+.pic4 {
+  bottom: -10px;
+  left: 20px;
+  width: 180px;
+  height: 160px;
+  border-radius: 30px;
+  background: url('../images/4.jpg');
+  background-size: 100% 100%;
+}
+.pic5 {
+  bottom: 15px;
+  left: 225px;
+  width: 150px;
+  height: 120px;
+  border-radius: 30px;
+  background: url('../images/5.jpg');
+  background-size: 100% 100%;
+}
+.b1 {
+  left: 160px;
+}
+.b2 {
+  right: 160px;
+  transition: all .1s;
+}
+.b3 {
+  width: 160px;
+  left: 220px;
+}
+.bottom {
+  margin: 30px auto 0 auto;
+  width: 400px;
+  text-align: center;
+  font-size: 2em;
+  display: none;
+}
