@@ -1,3 +1,4 @@
+'use strict';
 $(function () {
     function Button() {
         this.main = $(document);
